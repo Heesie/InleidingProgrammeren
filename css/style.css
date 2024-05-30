@@ -1,0 +1,69 @@
+h1 {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+.begingezicht{
+    display: flex;
+    justify-content: center ;
+    padding: 40px;
+}
+
+.tekstveld{
+    display: flex;
+    justify-content: center ;
+    padding: 10px;
+}
+
+.inputveld{
+    display: flex;
+    justify-content: center ;
+    padding: 10px;
+}
+
+.beginknop{
+    display: flex;
+    justify-content: center ;
+    padding: 20px;
+}
+
+body { 
+    background-color: white;
+}
+
+
+#gezicht{
+    display: flex;
+    justify-content: center;
+}
+
+
+.bars{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#sectionInlog{
+    display:block;
+}
+
+#sectionGame{
+    display: none;
+}

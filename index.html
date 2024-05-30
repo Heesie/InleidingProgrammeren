@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Tamagochi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="img/gamen.jpeg" href="img/gamen.jpeg"/>
+  </head>
+  <body>
+
+    <section id="sectionInlog">
+      <h1>Welkom bij de Lucas Tamagochi</h1>
+      <div class="begingezicht">
+        <img id="defaultgezicht" src="img/hallo.jpeg" alt="zwaaiende lucas als emoji" />
+      </div>
+      <div class="tekstveld">
+        <label>What is your name?</label>
+      </div>
+      <div class="inputveld">
+        <input type="text" name="nameInput" id="nameInput" />
+      </div>
+      <div class="beginknop">
+          <button id="welkomButton">Beginnen</button>
+      </div>
+    </section>
+
+    <section id="sectionGame">
+    <h2>Hi</h2>
+<button id="mysteryBtn">MysteryFace</button>
+    <div id="gezicht">
+      <img id="lucas" src="img/hallo.jpeg" alt="hallo" />
+    </div>
+
+    <ul class="bars">
+      <li>
+        <progress value="50" max="100" id="pilsbalk"></progress>
+      </li>
+      <li>
+        <progress value="50" max="100" id="pizzabalk"></progress>
+      </li>
+      <li>
+        <progress value="50" max="100" id="slapenbalk"></progress>
+      </li>
+    </ul>
+    <ul class="buttons">
+      <li>
+        <button id="pilsBtn">
+          <img src="img/biertje.png" alt="biertje" />
+        </button>
+      </li>
+      <li>
+        <button id="pizzabalkBtn">
+          <img src="img/pizza.png" alt="pizza" />
+        </button>
+      </li>
+      <li>
+        <button id="slapenbalkBtn">
+          <img src="img/zzz.png" alt="zzz" />
+        </button>
+      </li>
+    </ul>
+
+  </section>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

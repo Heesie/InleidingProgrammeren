@@ -1,0 +1,129 @@
+html:
+<canvas id="canvas"></canvas>
+
+js:
+const canvas = document.getElementById("canvas");
+const context = canvas.getContext("2d");
+const width = canvas.width = 320;
+const height = canvas.height = 140;
+
+//healthbar class
+class HealthBar {
+    constructor(x, y, w, h, maxHealth, color){
+this.x = x;
+this.y = x;
+this.w = w;
+this.h = h;
+this.maxHealth = maxHealth;
+this.maxWidth = w;
+this.health = maxHealth;
+this.color = color;
+    }
+
+    show(context){
+        context.lineWidth = 3;
+        context.strokeStyle = "333";
+        context.fillStyle = this.color;
+        context.fillRect(this.x, this.y, this.w, this.h);
+        context.strokeRect(this.x, this.y, this.maxWidth, this.h)
+        
+
+    }
+
+    updateHealth(val) {
+        if (val >= 0){
+            this.health = val;
+            this. w = (this.health / this.maxHealth) * this.maxWidth;
+        }
+    }
+}
+
+let health = 100;
+const healthBarWidth = 200;
+const healthBarHeight = 30;
+const x = width / 2 - healthBarWidth / 2;
+const y = height / 2 - healthBarHeight / 2;
+
+const healthBar = new HealthBar(x, y, healthBarWidth, healthBarHeight, health, "yellow");
+
+const frame = function() {
+    context.clearRect(0, 0, width, height);
+    healthBar.show(context);
+    requestAnimationFrame(frame);
+}
+
+canvas.onclick = function() {
+    health -= 10;
+    healthBar.updateHealth(health);
+}
+
+frame();
+
+css:
+#canvas{
+    background: green;
+    display: block;
+    margin: 0 auto;
+    border: solid 6px #444;
+}
+
+Html:
+    <!-- <ul class="knopjes">
+      <li>
+        <button id="biertjeKnop">
+          <img src="img/biertje.png" alt="biertje" /> Pils
+        </button>
+      </li>
+      <li>
+        <button id="pizzaKnop">
+          <img src="img/pizza.png" alt="pizza" /> Pizza
+        </button>
+      </li>
+      <li>
+        <button id="slapenKnop">
+          <img src="img/zzz.png" alt="zzz" /> Tukkie doen
+        </button>
+      </li>
+    </ul> -->
+
+    js: 
+
+//de button voor biertje
+//const buttonEL = document.querySelector("button");
+
+// let die bierbutton koppelt aan html: biertjeKnop
+//let biertjeButton = document.querySelector("#biertjeKnop");
+
+// let die pizzabutton koppelt aan html: pizzaKnop
+//let pizzaButton = document.querySelector("#pizzaKnop");
+
+    // Functie die hallo afbeelding veranderd naar feestafbeelding als je op biertjeknop druk
+//function veranderAfbeelding() {
+
+//    if (lucasKop.src.includes("img/hallo.jpeg")) {
+ //       lucasKop.src = "img/feesten.jpeg";
+ //   } else {
+ //       lucasKop.src = "img/hallo.jpeg";
+ //   }
+//}
+
+// Functie die hallo afbeelding veranderd naar hartjeafbeelding als je op pizzaknop druk
+//function veranderPizzaAfbeelding() {
+
+  //  if (lucasKop.src.includes("img/hallo.jpeg")) {
+    //    lucasKop.src = "img/hartje.jpeg";
+    //} else {
+    //    lucasKop.src = "img/hallo.jpeg";
+    //}
+//}
+
+//EL voor Pizza button
+//pizzaButton.addEventListener('click', veranderPizzaAfbeelding);
+
+//EL voor biertje button
+//biertjeButton.addEventListener('click', veranderAfbeelding);
+
+
+
+ 
+

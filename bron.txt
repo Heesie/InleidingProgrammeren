@@ -1,0 +1,23 @@
+https://www.google.com/search?q=biertje+emoji+apple&sca_esv=8870e14de2d74e2a&sca_upv=1&udm=2&biw=1920&bih=953&sxsrf=ADLYWIKSvSUYxLMecGMxo8U5OvwKZ6dYDA%3A1716805093578&ei=5V1UZtPgIoXvi-gP2KKTwAE&ved=0ahUKEwiT54Cuza2GAxWF9wIHHVjRBBgQ4dUDCBA&uact=5&oq=biertje+emoji+apple&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2JpZXJ0amUgZW1vamkgYXBwbGVI6xxQhgFY1RhwAXgAkAEAmAE8oAHAAqoBATa4AQPIAQD4AQGYAgKgAkDCAgUQABiABMICBBAAGB6YAwCIBgGSBwEyoAemAg&sclient=gws-wiz-serp#vhid=x8MPAgAEz6sGbM&vssid=mosaic
+afbeelding van het biertje button
+
+https://www.google.com/search?q=pizza+emoji+apple+transarent&sca_esv=8870e14de2d74e2a&sca_upv=1&udm=2&biw=1920&bih=953&sxsrf=ADLYWIKxSKmaC9LaGOTzwHzFhewd9FukHQ%3A1716805402853&ei=Gl9UZs7YM_mki-gPr6qCqAM&ved=0ahUKEwjOzb3Bzq2GAxV50gIHHS-VADUQ4dUDCBA&uact=5&oq=pizza+emoji+apple+transarent&gs_lp=Egxnd3Mtd2l6LXNlcnAiHHBpenphIGVtb2ppIGFwcGxlIHRyYW5zYXJlbnRI2SdQf1jjJnABeACQAQCYAUGgAdgEqgECMTG4AQPIAQD4AQGYAgKgAkfCAgcQABiABBgTwgIIEAAYExgIGB7CAgQQABgewgIGEAAYCBgemAMAiAYBkgcBMqAHygQ&sclient=gws-wiz-serp#imgrc=3U2J4NHEutE-uM&imgdii=A8YvGi4vrTauxM
+afbeelding van pizza button
+
+https://emojipedia.org/apple/ios-13.1/zzz
+afbeelding van zzz button
+
+https://www.youtube.com/watch?v=UI-Qa2-tY10
+hieruit heb ik inspiratie opgedaan voor de progressbar
+
+https://youtu.be/Wh2kVSPi_sE?si=55EkUScp88G3D7rx
+dit heb ik nagemaakt maar niet gebruikt in mijn eindwerk, hij staat in probeersels.txt
+
+https://www.youtube.com/watch?v=IPhQz0MA0AI
+audio voor eten
+
+https://dobrian.github.io/cmp/topics/sample-recording-and-playback-with-web-audio-api/1.loading-and-playing-sound-files.html#:~:text=Method%202%3A%20JavaScript,back%20the%20sound%20with%20the%20.
+dit is hoe ik de audio heb toegevoegd aan mijn game
+
+https://nl.wix.com/blog/post/wat-is-een-favicon-en-hoe-kun-je-er-een-maken-voor-je-website#:~:text=Een%20favicon%20toevoegen%20aan%20je%20Wix%20website&text=Dat%20doe%20je%20zo%3A&text=Klik%20op%20'Afbeelding%20uploaden'%20en,wordt%20weergegeven%20op%20je%20browsertabblad.
+bron die ik heb gebruikt om mijn favicon toe te voegen
